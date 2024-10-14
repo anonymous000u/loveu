@@ -8,12 +8,12 @@ let h1 = document.getElementById("h1")
 btn_no.addEventListener("click", function(){
     btn_no.innerHTML = "<b>YES</b>"
     block_audio.style.display = "flex" ;
-    h1.style.marginTop = "100px";
+    h1.style.marginTop = "80px";
 })
 
 btn_yes.addEventListener("click", function(){
     block_audio.style.display = "flex" ;
-    h1.style.marginTop = "100px";
+    h1.style.marginTop = "80px";
 })
 
 
